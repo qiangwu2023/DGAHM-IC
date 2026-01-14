@@ -3,6 +3,25 @@
 This is the implementation of **Efficient Estimation for Deep Generalized Accelerated Hazards Models with Interval-censored Data**. The folder **simulations** includes all simulation results. The folder **real_data** 
 shows the results for the real data, which can be publicly available at BioLINCC https://biolincc.nhlbi.nih.gov/studies/aric.
 
+## Hardware settings
+
++ Processor
+
+> 14th Generation i9 14900KF (24-core, 68MB cache, 2.4GHz to 6.0GHz Thermal Velocity Boost)
+
++ Operating System
+
+> Windows 11
+
++ Memory
+
+> 64GB, 2 &times; 32GB, DDR5, 5200MHz
+
++ Storage 
+
+> 2&times; 2TB M.2 PCIe SSD
+
+
 ## Install Python 3.12.2
 
 + pip install packages
@@ -10,7 +29,7 @@ shows the results for the real data, which can be publicly available at BioLINCC
 > pip install numpy pandas torch matplotlib scipy
 
 
-## Usage
+## Usage of packages
 > First, given the initial values of $\beta$ and spline parameters $c$, we can obtain the parameter estimates in the neural network by minimizing the negative log-likelihood function using ***PyTorch***, and bring them into the negative log-likelihood function, and then minimizing the negative log-likelihood function w.r.t $(\beta, c)$, thereby obtaining parameter estimates of $\beta$ and $c$, and loop iteration until the parameters converge.
 
 1. How to optimize parameters with constraints?
