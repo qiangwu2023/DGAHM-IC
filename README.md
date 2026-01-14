@@ -3,6 +3,22 @@
 This is the implementation of **Efficient Estimation for Deep Generalized Accelerated Hazards Models with Interval-censored Data**. The folder **simulations** includes all simulation results. The folder **real_data** 
 shows the results for the real data, which can be publicly available at BioLINCC https://biolincc.nhlbi.nih.gov/studies/aric.
 
+## Hardware settings
+
++ Processor
+
+> 14th Generation i9 14900KF (24-core, 68MB cache, 2.4GHz to 6.0GHz Thermal Velocity Boost)
++ Operating System
+
+> Windows 11
++ Memory
+
+> 64GB, 2 &times; 32GB, DDR5, 5200MHz
++ Storage 
+
+> 2&times; 2TB M.2 PCIe SSD
+
+
 ## Install Python 3.12.2
 
 + pip install packages
