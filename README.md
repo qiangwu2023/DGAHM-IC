@@ -27,7 +27,7 @@ shows the results for the real data, which can be publicly available at BioLINCC
 
 
 ## Usage
-> First, given the initial values of $\beta$ and spline parameters $c$, we can obtain the parameter estimates in the neural network by minimizing the negative log-likelihood function using ***PyTorch***, and bring them into the negative log-likelihood function, and then minimizing the negative log-likelihood function w.r.t $(\beta, c)$, thereby obtaining parameter estimates of $\beta$ and $c$, and loop iteration until the parameters converge.
+> First, given the initial values of $\beta$, $\gamma$ and spline parameters $c$, we can obtain the parameter estimates in the neural network by minimizing the negative log-likelihood function using ***PyTorch***, and bring them into the negative log-likelihood function, and then minimizing the negative log-likelihood function w.r.t $(\beta, \gamma, c)$, thereby obtaining parameter estimates of $\beta$, $\gamma$ and $c$, and loop iteration until the parameters converge.
 
 1. How to optimize parameters with constraints?
 > We use ***minimize***, which is a function of the ***optimize*** module in ***scipy***
